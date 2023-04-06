@@ -1,0 +1,37 @@
+.header{
+    width: 85%;
+    height: 10vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 10% 75% 15% ;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+    
+}
+
+.nav_mobile{
+  display: none;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: auto;
+    cursor: default;
+}
+
+span{
+    color:rgb(4, 197, 72);
+    
+}

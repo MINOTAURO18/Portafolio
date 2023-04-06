@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #f5f5dc;
 }
 
 body{
-  background-color: ;
+  background-color: rgb(2, 0, 13);
+  font-family: "Courier New", Courier, monospace;
 }
