@@ -1,0 +1,7 @@
+.Home{
+    width: 85%;
+    height: 90vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}

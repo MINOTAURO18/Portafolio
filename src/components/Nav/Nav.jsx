@@ -9,14 +9,14 @@ const Nav = () => {
             <span className={Styles.logo}>JAMY</span>
 
           <nav className={Styles.nav}>
-            <Link to='/'><span>I</span>nicio</Link>
+            <Link to='/portafolio'><span>I</span>nicio</Link>
             <Link to='/proyectos'><span>P</span>royectos</Link>
             <Link to='/sobremi'><span>S</span>obreMi</Link>
             <Link to='/mas'><span>M</span>as</Link>
           </nav>
 
           <nav className={Styles.nav_mobile}>
-            <Link to='/'></Link>
+            <Link to='/portafolio'></Link>
             <Link to='/proyectos'></Link>
             <Link to='/sobremi'></Link>
             <Link to='/mas'></Link>
