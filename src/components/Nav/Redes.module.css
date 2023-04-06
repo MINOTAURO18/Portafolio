@@ -1,9 +1,9 @@
 .Redes{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 5px;
-  border-left: 2px solid #f5f5dc;
+  justify-content: flex-end;
+  gap: 15px;
+  /* border-left: 2px solid #f5f5dc; */
   cursor: pointer;
 }
 

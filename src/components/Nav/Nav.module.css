@@ -3,7 +3,7 @@
     height: 10vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 10% 75% 15% ;
+    grid-template-columns: 10% 78% 12% ;
     align-items: center;
 }
 
@@ -17,6 +17,7 @@ a{
     justify-content: flex-end;
     gap: 30px;
     padding: 0 30px;
+    border-right: 2px solid wheat;
     
 }
 
@@ -27,8 +28,8 @@ a{
 .logo{
     font-size: 1.5rem;
     font-weight: 900;
-    margin: auto;
     cursor: default;
+    /* margin: auto; */
 }
 
 span{

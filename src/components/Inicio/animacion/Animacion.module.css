@@ -1,0 +1,196 @@
+  /* The loader container */
+.Animacion{
+    position: absolute;
+    left: 50%;
+    top: 29%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 15vh;
+}
+
+.loader {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 30px 4px rgb(2, 125, 23) inset,
+        0 5px 12px rgb(4, 197, 72);
+    overflow: hidden;
+  }
+  
+  .loader:before,
+    .loader:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 45%;
+    top: -40%;
+    background-color: rgb(7, 175, 21);
+    animation: wave 5s linear infinite;
+  }
+  
+  .loader:before {
+    border-radius: 30%;
+    background: rgb(4, 197, 72);
+    animation: wave 5s linear infinite;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loader2 {
+    background-color: rgb(2, 43, 16);
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+    transform-origin: center;
+    transition: 1s;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 10px rgb(3, 71, 44),
+    inset 5px 5px 12px rgba(3, 73, 35, 0.8),
+    inset 8px 8px 1px rgba(2, 146, 55, 0.7),
+    0px 0px 1px rgba(4, 97, 12, 0.6);
+    animation: 1.2s linear infinite 0s running first682;
+  }
+  
+  .loader2 div {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+  }
+  
+  .first {
+    transform: rotate(90deg)
+  }
+  
+  .first::before {
+    --width: 1em;
+    --height: 1em;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - var(--width)/2);
+    width: 1em;
+    height: 1em;
+    background-color: rgb(4, 66, 36);
+    box-shadow: inset 5px 5px 10px rgb(5, 112, 3),
+    0px 0px 2px rgb(8, 90, 6);
+    border-radius: 50px;
+    animation: 0.8s ease-in 0s infinite running jump2;
+  }
+  
+  .second {
+    transform: rotate(90deg);
+  }
+  
+  .second::before {
+    --width: 1em;
+    --height: 1em;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - var(--width)/2);
+    width: 1em;
+    height: 1em;
+    background-color: rgb(10, 152, 5);
+    box-shadow: inset 5px 5px 10px rgb(8, 134, 31),
+    0px 0px 2px white;
+    border-radius: 50px;
+    animation: 1.5s ease-in 0s infinite running jump2;
+  }
+  
+  .third {
+    transform: rotate(90deg)
+  }
+  
+  .third::before {
+    --width: 1em;
+    --height: 1em;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - var(--width)/2);
+    width: 1em;
+    height: 1em;
+    background-color: rgb(5, 128, 15);
+    box-shadow: inset 5px 5px 10px rgb(13, 113, 4),
+    0px 0px 2px white;
+    border-radius: 50px;
+    animation: 1.6s ease-in 0s infinite running jump2;
+  }
+  
+  .loader::after {
+    --width: 1em;
+    --height: 1em;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - var(--width)/2);
+    width: 1em;
+    height: 1em;
+    background-color: rgb(4, 79, 24);
+    box-shadow: inset 5px 5px 10px rgb(16, 91, 4),
+    0px 0px 2px white;
+    border-radius: 50px;
+    animation: 1.2s ease-in 1s alternate infinite running jump2;
+  }
+  
+  @keyframes first682 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(0deg);
+      transform: rotate(90deg)
+    }
+  
+    50% {
+      transform: rotate(90deg);
+      transform: rotate(180deg);
+    }
+  
+    75% {
+      transform: rotate(180deg);
+      transform: rotate(270deg)
+    }
+  
+    100% {
+      transform: rotate(270deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes jump2 {
+    0% {
+      top: 100%;
+    }
+  
+    25% {
+      top: 230%
+    }
+  
+    50% {
+      top: 100%;
+    }
+  
+    75% {
+      height: 0.6em
+    }
+  
+    100% {
+      height: 1em
+    }
+  }
