@@ -1,0 +1,12 @@
+.FullStack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.span{
+    font-size: 47px;
+    font-weight: 700;
+}

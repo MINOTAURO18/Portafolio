@@ -5,14 +5,17 @@ import FullStack from './FullStack/FullStack'
 const Inicio = () => {
     return(
       <section className={styles.Home}>
+        <div className={styles.full}>
         <FullStack/>
+        </div>
 
         <div className={styles.btnAndName}>
           <span>John Alexander Muñoz</span> 
           <Botones/>
         </div>
 
-        <Animacion/>
+        
+          <Animacion/>
       </section>
     )
 }
