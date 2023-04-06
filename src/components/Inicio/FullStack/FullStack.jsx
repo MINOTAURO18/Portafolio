@@ -4,7 +4,7 @@ const FullStack = () => {
     return(
         <div className={styles.FullStack}>
             <span className={styles.span}>Full Stack Web Developer</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis a neque illo aspernatur consectetur. Eligendi hic aut incidunt quia exercitationem unde omnis debitis, earum fugiat corporis fuga, rerum nam molestias.</p>
+            <p>Soy un programador con enfoque en el desarrollo de aplicaciones web del lado del cliente, tengo habilidade tanto en el Front-end como en el el Back-end. sin embargo mi especialidad y enfoque principal está en el Front-end.</p>
         </div>
     )
 }
