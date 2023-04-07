@@ -17,8 +17,8 @@
     height: 150px;
     border-radius: 50%;
     position: relative;
-    box-shadow: 0 0 30px 4px rgb(2, 125, 23) inset,
-        0 5px 12px rgb(4, 197, 72);
+    box-shadow: 0 0 30px 4px rgb(4, 197, 72) inset,
+        0 5px 20px rgb(80, 83, 80);
     overflow: hidden;
   }
   
@@ -30,7 +30,7 @@
     height: 100%;
     border-radius: 45%;
     top: -40%;
-    background-color: rgb(7, 175, 21);
+    background-color: rgb(4, 197, 72);
     animation: wave 5s linear infinite;
   }
   
@@ -61,7 +61,7 @@
     box-shadow: inset 0px 0px 10px rgb(3, 71, 44),
     inset 5px 5px 12px rgba(3, 73, 35, 0.8),
     inset 8px 8px 1px rgba(2, 146, 55, 0.7),
-    0px 0px 1px rgba(4, 97, 12, 0.6);
+    0px 0px 10px rgba(213, 216, 213, 0.6);
     animation: 1.2s linear infinite 0s running first682;
   }
   
@@ -86,7 +86,7 @@
     height: 1em;
     background-color: rgb(4, 66, 36);
     box-shadow: inset 5px 5px 10px rgb(5, 112, 3),
-    0px 0px 2px rgb(8, 90, 6);
+    0px 0px 5px white;
     border-radius: 50px;
     animation: 0.8s ease-in 0s infinite running jump2;
   }
@@ -106,7 +106,7 @@
     height: 1em;
     background-color: rgb(10, 152, 5);
     box-shadow: inset 5px 5px 10px rgb(8, 134, 31),
-    0px 0px 2px white;
+    0px 0px 5px white;
     border-radius: 50px;
     animation: 1.5s ease-in 0s infinite running jump2;
   }
@@ -126,7 +126,7 @@
     height: 1em;
     background-color: rgb(5, 128, 15);
     box-shadow: inset 5px 5px 10px rgb(13, 113, 4),
-    0px 0px 2px white;
+    0px 0px 5px white;
     border-radius: 50px;
     animation: 1.6s ease-in 0s infinite running jump2;
   }
@@ -142,7 +142,7 @@
     height: 1em;
     background-color: rgb(4, 79, 24);
     box-shadow: inset 5px 5px 10px rgb(16, 91, 4),
-    0px 0px 2px white;
+    0px 0px 0px white;
     border-radius: 50px;
     animation: 1.2s ease-in 1s alternate infinite running jump2;
   }

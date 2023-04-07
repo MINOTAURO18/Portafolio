@@ -9,38 +9,38 @@
   background: #107c08;
   background: linear-gradient(
     180deg,
-    #0d9001 0%,
-    #32ed04 15%,
-    #056e1d 15%,
+    #109604 0%,
+    #038f0f 15%,
+    #03c22f 15%,
     #07d204 19%,
     #255d03 19%,
     #13b904 22%,
     #158504 22%,
     #045e0a 28%,
     #00f836 28%,
-    #61f703 31%,
+    #06b112 31%,
     #176b04 33%,
     #04df42 36%,
     #07a111 36%,
     #04b53c 48%,
     #0f8802 48%,
-    #4fb902 55%,
+    #049911 55%,
     #057601 55%,
     #03a418 66%,
     #01e038 66%,
     #025012 70%,
     #18bd02 70%,
     #059e05 73%,
-    #00ff44 73%,
+    #18a206 73%,
     #035f1a 82%,
     #3fd509 82%,
     #027525 86%,
     #0bbe05 86%
   );
   box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.25),
-    inset 8px -4px 6px rgba(6, 139, 6, 0.5),
-    inset -8px 4px 8px rgba(27, 25, 25, 0.5), inset 20px -5px 12px #218303,
-    0 0 100px #ffffff59;
+    inset 8px -4px 6px rgba(5, 187, 5, 0.5),
+    inset -8px 4px 8px rgba(27, 25, 25, 0.5), inset 20px -5px 12px #175a02,
+    0 0 15px #ffffff59;
   transform: rotateZ(-15deg);
 }
 
@@ -51,10 +51,10 @@
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  border: 16px solid #05880b;
+  border: 16px solid #025f07;
   border-top-width: 0;
   border-radius: 50%;
-  box-shadow: 0 -2px 0 #0d6103;
+  box-shadow: 0 -2px 0 #084202;
   animation: rings1 0.8s infinite linear;
 }
 
@@ -65,7 +65,7 @@
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  border: 8px solid #00ff11;
+  border: 8px solid #068b0f;
   border-top-width: 0;
   border-radius: 50%;
   box-shadow: 0 -2px 0 #01450b;
