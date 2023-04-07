@@ -1,4 +1,7 @@
 .header{
+    background-color: rgb(2, 0, 13);
+    position: sticky;
+    top: 0;
     width: 85%;
     height: 10vh;
     margin: 0 auto;
