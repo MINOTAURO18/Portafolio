@@ -1,10 +1,11 @@
 import styles from '../SobreMi/SobreMi.module.css'
 import img from '../../assets/alex.webp'
-
+import Animaciones from '../Animaciones/Animacion'
 const SobreMi = () => {
     return (
         <section className={styles.SobreMi}>
-            
+            {/* <Animacion/> */}
+            <Animaciones/>
             
    <article>
 
@@ -36,7 +37,7 @@ const SobreMi = () => {
             <div className={styles.academico}>
                 
                 <div className={styles.cards}>
-                <h1>mis estudios</h1>
+                <h1>Educación</h1>
 
                     <div  className={styles.card}>
                         <h2>Udemy</h2>
