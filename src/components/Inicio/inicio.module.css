@@ -28,6 +28,7 @@
 }
 
 .full{
+  min-width: 400px;
   display: flex;
   padding: 8vh 0 0 0;
 
