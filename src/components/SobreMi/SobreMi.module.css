@@ -2,29 +2,36 @@
     width: 85%;
     height: 90vh;
     margin:0 auto;
+    
 }
 
 article{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    /* align-items: center; */
-    padding: 10vh 0 0 0;
+  width: 100%;
+  padding: 6vh 0 0 0;
+  display: grid;
+  gap: 5rem;
+  /* grid-auto-rows: 25rem; */
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   }
 
 .img{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .img img{
-    width: 250px;
-    border-radius: 50%;
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid rgb(4, 197, 72);
 }
 
 
-
-
+h1{
+  text-align: center;
+  font-size: 27px;
+}
 
 
 
@@ -63,7 +70,7 @@ article{
   }
   
   .footer div {
-    margin-right: 1rem;
+    margin-right: 1.2rem;
     height: 20px;
     display: flex;
     align-items: center;
@@ -95,4 +102,55 @@ article{
   .viewer span svg {
     stroke: #fff;
   }
+
+  .academico{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   
+
+  .cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cards .card{
+    max-width: 400px;
+    min-width: 310px;
+    width: 80%;
+    height: 100px;
+    /* margin: auto; */
+    border: 2px solid rgb(4, 197, 72);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cards h1{
+    max-width: 400px;
+    min-width: 310px;
+    width: 70%;
+  }
+
+  .cards .card h2{
+    font-size: 20px;
+  }
+
+  .cards .card span{
+    color: #f5f5dc;
+    font-weight: 500;
+  }
+
+  
+  .cards .card:hover{
+    transition: all .3s;
+    background-color: rgb(4, 197, 72);
+  }

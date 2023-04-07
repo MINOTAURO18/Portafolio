@@ -16,7 +16,7 @@ const SobreMi = () => {
     </div>
    
    <div className={styles.body}>
-     <p className={styles.text}>Soy un programador con enfoque en el desarrollo de aplicaciones web, tengo habilidades tanto en el Front-end como en el el Back-end. sin embargo mi especialidad y enfoque principal está en el Front-end.</p><span className={styles.username}>From:Jamy_10011</span>
+     <p className={styles.text}>Programador con enfoque en el desarrollo de aplicaciones web, tengo habilidades tanto en el Front-end como en el el Back-end. sin embargo mi especialidad y enfoque principal está en el Front-end.</p><span className={styles.username}>From:Jamy_10011</span>
       <div className={styles.footer}>
    <div>
      <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M16 10H16.01M12 10H12.01M8 10H8.01M3 10C3 4.64706 5.11765 3 12 3C18.8824 3 21 4.64706 21 10C21 15.3529 18.8824 17 12 17C11.6592 17 11.3301 16.996 11.0124 16.9876L7 21V16.4939C4.0328 15.6692 3 13.7383 3 10Z"></path> </g></svg>180</div>
@@ -34,7 +34,33 @@ const SobreMi = () => {
  </div></div>
 
             <div className={styles.academico}>
+                
+                <div className={styles.cards}>
                 <h1>mis estudios</h1>
+
+                    <div  className={styles.card}>
+                        <h2>Udemy</h2>
+                        <span>React, Node.js, Javascript</span>
+                    </div>
+                    <div className={styles.card}>
+                        <h2>Soy Henry</h2>
+                        <span>enero 2023 a julio 2023</span>
+                    </div>
+                    <div  className={styles.card}>
+                        <h2>Frecodecamp</h2>
+                        <span>HTML, CSS, SASS</span>
+                    </div>
+
+                    <div  className={styles.card}>
+                        <h2>Universidad De Antioquia</h2>
+                        <span>En Curso</span>
+                    </div>
+
+
+
+                </div>
+
+                
             </div>
             </article>
         </section>
