@@ -1,0 +1,161 @@
+.SobreMi{
+    width: 85%;
+    height: 90vh;
+    margin:0 auto;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-self: center;
+}
+
+.img img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+.card {
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+
+
+
+
+
+.username {
+    color: rgb(4, 197, 72);
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .body .text {
+    margin: 0 10px 0 0;
+    white-space: pre-line;
+    color:  #f5f5dc;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+  
+  .footer {
+    position: relative;
+    width: 100%;
+    color: #9fa4aa;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .footer div {
+    margin-right: 1rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .footer svg {
+    margin-right: 5px;
+    height: 100%;
+    stroke: rgb(4, 197, 72);
+  }
+  
+  .viewer span {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(4, 197, 72);
+    margin-right: -6px;
+    border-radius: 50%;
+    border: 1px solid #070707;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8px;
+    color: #fff;
+    padding: 2px;
+  }
+  
+  .viewer span svg {
+    stroke: #fff;
+  }
+  

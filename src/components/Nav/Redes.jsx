@@ -9,7 +9,7 @@ const Redes = () => {
         <div className={styles.Redes}>
           {
             redes.map((re, index) => {
-                return <img key={index} src={re}/>
+                return <img className={styles.img} key={index} src={re}/>
             })
           }
         </div>

@@ -14,7 +14,6 @@
 p{
  font-size: 1.2rem;
  font-weight: 500;
- text-align: justify;
  
 }
 
@@ -22,7 +21,7 @@ p{
 
 
 
-.card {
+/* .card {
   position: relative;
   background-color: #b8bbca;
   padding: 1em;
@@ -31,7 +30,7 @@ p{
   border-radius: 10px;
   max-width: 300px;
   transition: 200ms ease-in-out;
-}
+} */
 
 .username {
   color: rgb(4, 197, 72);
@@ -47,7 +46,7 @@ p{
 .body .text {
   margin: 0 10px 0 0;
   white-space: pre-line;
-  color: #f5f5dc;
+  color:  #f5f5dc;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 4px;
@@ -76,7 +75,7 @@ p{
 .footer svg {
   margin-right: 5px;
   height: 100%;
-  stroke: #9fa4aa;
+  stroke: rgb(4, 197, 72);
 }
 
 .viewer span {
@@ -85,7 +84,7 @@ p{
   background-color: rgb(4, 197, 72);
   margin-right: -6px;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid #070707;
   display: grid;
   align-items: center;
   text-align: center;

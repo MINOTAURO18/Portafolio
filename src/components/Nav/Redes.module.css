@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-.Redes img{
+.Redes .img{
   width: 22px;
   filter: invert(94%) sepia(8%) saturate(746%) hue-rotate(345deg) brightness(108%) contrast(92%);
 }
