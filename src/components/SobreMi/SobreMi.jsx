@@ -4,13 +4,14 @@ import img from '../../assets/alex.webp'
 const SobreMi = () => {
     return (
         <section className={styles.SobreMi}>
-            <h1>Quien soy?</h1>
-            <article>
+            
+            
+   <article>
 
            
-<div class="card">
+<div class="card"> 
 
-    <div>
+    <div className={styles.img}>
         <img src={img} alt="" />
     </div>
    
@@ -31,6 +32,10 @@ const SobreMi = () => {
  </div>
     </div>
  </div></div>
+
+            <div className={styles.academico}>
+                <h1>mis estudios</h1>
+            </div>
             </article>
         </section>
     )
