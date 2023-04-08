@@ -17,6 +17,10 @@ import logo9 from '../../assets/typ.svg'
 import logo10 from '../../assets/figma.svg'
 import github from '../../assets/github.svg';
 import page from '../../assets/url.svg'
+import code from '../../assets/code.svg'
+import web from '../../assets/web.svg'
+import desing from '../../assets/desing.svg'
+
 
 const Proyectos = () => {
     const tarjetas = [
@@ -137,6 +141,29 @@ const Proyectos = () => {
             </div>
 
 
+            <div>
+              <h2>Servicios</h2>
+              <div  className={styles.metodo}>
+
+              
+                <div>
+                  <img src={code} alt="" />
+                  <p>Desarrollo de plataformas y soluciones específicas para tus aplicaciones web modernas.</p>
+                </div>
+                
+                <div>
+                  <img src={web} alt="" />
+                  <p>proyectos tecnológicos y adaptados a tus necesidades.</p>
+                </div>
+
+                <div>
+                  <img src={desing} alt="" />
+                  <p>Diseño adaptivo para todos los dispositivos</p>
+                </div>
+
+
+            </div>
+            </div>
 
           </div>
 
