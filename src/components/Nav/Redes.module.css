@@ -5,9 +5,14 @@
   gap: 15px;
   /* border-left: 2px solid #f5f5dc; */
   cursor: pointer;
+} 
+
+.Redes img:hover{
+  transform: translateY(-12%);
 }
 
 .Redes .img{
+  transition: transform 0.2s ease-in-out;
   width: 22px;
   filter: invert(94%) sepia(8%) saturate(746%) hue-rotate(345deg) brightness(108%) contrast(92%);
 }

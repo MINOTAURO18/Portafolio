@@ -3,11 +3,18 @@ import img from '../../assets/Dominios.webp'
 import img2 from '../../assets/Jamy.webp'
 import img3 from '../../assets/porta2.webp'
 import img4 from '../../assets/barberia.webp'
+import img5 from '../../assets/portafolio.webp'
+import img6 from '../../assets/kfc.webp'
 import logo1 from '../../assets/react.svg'
 import logo2 from '../../assets/html.svg'
 import logo3 from '../../assets/sass.svg'
 import logo4 from '../../assets/js.svg'
 import logo5 from '../../assets/css.svg'
+import logo6 from '../../assets/redux.svg'
+import logo7 from '../../assets/node.svg'
+import logo8 from '../../assets/psql.svg'
+import logo9 from '../../assets/typ.svg'
+import logo10 from '../../assets/figma.svg'
 import github from '../../assets/github.svg';
 import page from '../../assets/url.svg'
 
@@ -49,12 +56,91 @@ const Proyectos = () => {
             urlGithub:'https://github.com/MINOTAURO18/pagina-2',
         },
 
+        {
+          image:[img6],
+          name:'Template-KFC',
+          descrip:'template creado por JAMY, practica de responsive y diseño',
+          tecno:[logo2,logo5],
+          url:'https://minotauro18.github.io/pagina-2/',
+          urlGithub:'https://github.com/MINOTAURO18/pagina-2',
+        },
+
+        {
+          image:[img5],
+          name:'Portafolio',
+          descrip:'Portafolio de JAMY, donde conoceras un poco sobre quien es JAMY, sus proyectos y tecnologias que usa',
+          tecno:[logo2,logo3,logo1],
+          url:'https://minotauro18.github.io/pagina-2/',
+          urlGithub:'https://github.com/MINOTAURO18/pagina-2',
+        },
+
     ]
+
+
+
     return (
-        <section className={styles.Proyectos}>
-           <div>
-            <h2>tecnologias</h2>
-           </div>
+      <section className={styles.Proyectos}>
+          <div className={styles.servicios}>
+            <h2>Tecnologias y Proyectos</h2>
+            <div className={styles.habi}>
+
+              <div>
+                <img src={logo2} alt="logo html" />
+                <h5>HTML</h5>
+              </div>
+
+              <div>
+                <img src={logo5} alt="logo css" />
+                <h5>CSS</h5>
+              </div>
+
+              <div>
+                <img src={logo3} alt="logo sass" />
+                <h5>SASS</h5>
+              </div>
+
+              <div>
+                <img src={logo4} alt="logo js" />
+                <h5>JAVASCRIPT</h5>
+              </div>
+
+              <div>
+                <img src={logo1} alt="logo react" />
+                <h5>REACT</h5>
+              </div>
+
+              <div>
+                <img src={logo6} alt="logo redux" />
+                <h5>REDUX</h5>
+              </div>
+              <div>
+                <img src={logo7} alt="logo node.js" />
+                <h5>NODE.JS</h5>
+              </div>
+
+              <div>
+                <img src={logo9} alt="logo tp" />
+                <h5>TYPESCRIPT</h5>
+              </div>
+
+              <div>
+                <img src={logo8} alt="logo posgresql" />
+                <h5>PostgreSQL</h5>
+              </div>
+
+
+              <div>
+                <img src={logo10} alt="logo figma" />
+                <h5>FIGMA</h5>
+              </div>
+              
+            </div>
+
+
+
+          </div>
+
+
            <div className={styles.cards}>
             {
               tarjetas.map(card => {
@@ -64,7 +150,7 @@ const Proyectos = () => {
                        <img src={card.image[0]} alt={`imagen de ${card.name}`} />
                        </div>
 
-                       <h3>{card.name}</h3>
+                       <h3>{card.name}</h3> 
 
                        <span  className={styles.descrip}><p></p>{card.descrip}</span>
 
