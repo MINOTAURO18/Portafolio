@@ -66,7 +66,7 @@ const Proyectos = () => {
 
                        <h3>{card.name}</h3>
 
-                       <span className={styles.descrip}>{card.descrip}</span>
+                       <span  className={styles.descrip}><p></p>{card.descrip}</span>
 
                        <div className={styles.tecno}>
                         <img src={card.tecno[0]} />

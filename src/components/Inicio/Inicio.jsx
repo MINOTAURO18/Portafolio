@@ -7,7 +7,7 @@ const Inicio = () => {
       <section className={styles.Home}>
         <div className={styles.full}>
         <FullStack/>
-        </div>
+        </div> 
 
         <div className={styles.btnAndName}>
           <span>John Alexander Muñoz</span> 
