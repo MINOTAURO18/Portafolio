@@ -9,7 +9,7 @@ const Nav = () => {
             <span className={Styles.logo}>JAMY</span>
 
           <nav className={Styles.nav}>
-            <Link to='/portafolio'><span>I</span>nicio</Link>
+            <Link to='/portafolio/'><span>I</span>nicio</Link>
             <Link to='/proyectos'><span>P</span>royectos</Link>
             <Link to='/sobremi'><span>S</span>obreMi</Link>
             <Link to='/mas'><span>M</span>as</Link>
