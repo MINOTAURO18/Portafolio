@@ -1,10 +1,13 @@
 import styles from '../Mas/Mas.module.css';
+import Animaciones from '../Animaciones/Animacion';
 
 const Mas = () => {
 
     
     return (
         <div className={styles.contenedor}>
+                
+            
 		<aside>
 			<div className={styles.contenedorTemario} id="temario">
 				<h3 className={styles.titulo}>Temario</h3>

@@ -6,6 +6,12 @@ const SobreMi = () => {
         <section className={styles.SobreMi}>
             {/* <Animacion/> */}
             <Animaciones/>
+            <div className={styles.container}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             
    <article>
 
