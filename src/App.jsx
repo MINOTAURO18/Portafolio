@@ -14,9 +14,9 @@ function App() {
       <Nav/>
       <Routes>
         <Route path='/portafolio/' element={<Inicio/>}/>   
-        <Route path='/proyectos' element={<Proyectos/>}/>
-        <Route path='/sobremi' element={<SobreMi/>}/>
-        <Route path='/mas' element={<Mas/>}/>
+        <Route path='/portafolio/proyectos' element={<Proyectos/>}/>
+        <Route path='/portafolio/sobremi' element={<SobreMi/>}/>
+        <Route path='/portafolio/mas' element={<Mas/>}/>
       </Routes> 
       
     </div>
