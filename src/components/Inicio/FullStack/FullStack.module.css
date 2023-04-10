@@ -110,9 +110,13 @@ p{
     display: none;
   }
 
+  .FullStack{
+    gap: 10px;
+  }
+
   .span_mobile{
     display: inline-block;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
   }
 

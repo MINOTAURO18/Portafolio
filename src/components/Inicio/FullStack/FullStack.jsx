@@ -4,7 +4,7 @@ const FullStack = () => {
     return(
         <div className={styles.FullStack}>
             <span className={styles.span}>Full Stack Web Developer</span>
-            <span className={styles.span_mobile}>John Alexander Muñoz</span>
+            <span className={styles.span_mobile}>Alexander Muñoz</span>
             <div class="card">
    
    <div className={styles.body}> 
