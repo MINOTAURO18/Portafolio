@@ -42,8 +42,9 @@
   .Home{
     max-width: 600px;
     width: 100%;
-    height: auto;
+    height: 80vh;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding:0;
   }

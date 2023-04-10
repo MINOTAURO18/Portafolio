@@ -112,6 +112,9 @@ p{
 
   .FullStack{
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .span_mobile{
