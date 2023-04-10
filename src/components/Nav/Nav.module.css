@@ -50,6 +50,10 @@ span{
     .header{
         position:static ;
         grid-template-columns: 50% 50%;
+
+    }
+
+    .nav{
     }
 
     .nav_mobile{
