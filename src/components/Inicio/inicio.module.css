@@ -52,6 +52,7 @@
     width: 85%;
     height: 100%;
     margin: 0 auto;
+    min-width: initial;
   }
 
   .btnAndName{

@@ -15,7 +15,7 @@ const Inicio = () => {
         </div>
            
         
-          <Animacion/>
+          <Animacion/> 
       </section>
     )
 }
