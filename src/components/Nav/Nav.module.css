@@ -40,3 +40,36 @@ span{
     color:rgb(4, 197, 72);
     
 }
+
+@media (max-width: 800px){
+
+    .nav{
+        display: none;
+    }
+
+    .header{
+        position:static ;
+        grid-template-columns: 50% 50%;
+    }
+
+    .nav_mobile{
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+        width: 85%;
+        border: 2px solid rgb(4, 197, 72);
+        border-radius: 40px;
+        margin-bottom:10px ;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .nav_mobile img{
+        filter: invert(6%) sepia(66%) saturate(7386%) hue-rotate(305deg) brightness(75%) contrast(103%);
+        width: 30px;
+    }
+
+}

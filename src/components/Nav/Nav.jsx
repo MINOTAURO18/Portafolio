@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import Redes from "./Redes";
 import Styles from '../Nav/Nav.module.css';
+import inicio from '../../assets/Inicio.svg'
+import proyectos from '../../assets/proyectos.svg'
+import sobremi from '../../assets/sobremi.svg'
+import mas from '../../assets/mas.svg'
 
 const Nav = () => {
     return(
@@ -16,10 +20,18 @@ const Nav = () => {
           </nav>
 
           <nav className={Styles.nav_mobile}>
-            <Link to='/portafolio'></Link>
-            <Link to='/proyectos'></Link>
-            <Link to='/sobremi'></Link>
-            <Link to='/mas'></Link>
+            <Link to='/portafolio/'>
+              <img src={inicio} alt="logo del inicio" />
+            </Link>
+            <Link to='/portafolio/proyectos'>
+              <img src={proyectos} alt="" />
+            </Link>
+            <Link to='/portafolio/sobremi'>
+            <img src={sobremi} alt="" />
+            </Link>
+            <Link to='/portafolio/mas'>
+            <img src={mas} alt="" />
+            </Link>
           </nav>
 
             <Redes/>

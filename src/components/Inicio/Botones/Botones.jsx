@@ -5,8 +5,8 @@ const Botones = () => {
       <div className={styles.Botones}>
        <button><a className={styles.a} href="#">CV</a></button>
        <button><a className={styles.a} href="#">Contacto</a></button>
-      </div>
+      </div> 
     )
 }
 
-export default Botones;
+export default Botones; 

@@ -13,7 +13,7 @@ const Inicio = () => {
           <span>John Alexander Muñoz</span> 
           <Botones/>
         </div>
-
+           
         
           <Animacion/>
       </section>

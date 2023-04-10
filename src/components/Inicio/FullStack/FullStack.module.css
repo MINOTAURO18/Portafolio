@@ -10,6 +10,9 @@
     font-size: 47px;
     font-weight: 700;
 }
+.span_mobile{
+  display: none;
+}
 
 p{
  font-size: 1.2rem;
@@ -102,7 +105,26 @@ p{
 }
 
 
+@media (max-width: 800px){
+  .span{
+    display: none;
+  }
 
+  .span_mobile{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .body .text{
+    margin: 0 ; 
+  white-space: normal;
+  color:  #f5f5dc;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  }
+}
 
 
 
