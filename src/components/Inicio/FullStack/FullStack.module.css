@@ -114,7 +114,8 @@ p{
     gap: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding:2vh 0 0 0 ;
   }
 
   .span_mobile{
