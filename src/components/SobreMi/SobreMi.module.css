@@ -177,8 +177,8 @@ h1{
     border-radius: 50%;
     height: 100%;
     width: 100%;
-    background-color: rgb(4, 197, 72);
-    background-image: linear-gradient(rgb(4, 197, 72), #065303, #065303);
+    /* background-color: rgb(4, 197, 72);
+    background-image: linear-gradient(rgb(4, 197, 72), #065303, #065303); */
   }
   
   .container span:nth-of-type(1) {
@@ -216,7 +216,7 @@ h1{
   }
   
 
-  @media (max-width: 800px){
+  @media (max-width: 1040px){
     .container{
       display: none;
     }
@@ -234,12 +234,15 @@ h1{
     article{
       display: flex;
       flex-direction: column;
-      padding: 2vh 0 15vh 0;
+      padding: 4vh 0 15vh 0;
     }
 
     .img img{
       width: 200px;
       z-index: 99;
+    }
+    .body .text{
+      font-weight: 900;
     }
 
   
