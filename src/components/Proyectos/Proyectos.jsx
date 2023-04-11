@@ -38,8 +38,8 @@ const Proyectos = () => {
           name:'BarberShop',
           descrip:'BarberShop tu estilo es nuestra prioridad',
           tecno:[logo2,logo3,logo4],
-          url:'https://minotauro18.github.io/pagina-jamy/',
-          urlGithub:'https://github.com/MINOTAURO18/pagina-jamy',
+          url:'https://minotauro18.github.io/Barberia/',
+          urlGithub:'https://github.com/MINOTAURO18/Barberia',
         },
 
         {
@@ -65,8 +65,8 @@ const Proyectos = () => {
           name:'Template-KFC',
           descrip:'template creado por JAMY, practica de responsive y diseño',
           tecno:[logo2,logo5],
-          url:'https://minotauro18.github.io/pagina-2/',
-          urlGithub:'https://github.com/MINOTAURO18/pagina-2',
+          url:'https://minotauro18.github.io/KFC/',
+          urlGithub:'https://github.com/MINOTAURO18/KFC',
         },
 
         {
@@ -74,8 +74,8 @@ const Proyectos = () => {
           name:'Portafolio',
           descrip:'Portafolio de JAMY, donde conoceras un poco sobre quien es JAMY, sus proyectos y tecnologias que usa',
           tecno:[logo2,logo3,logo1],
-          url:'https://minotauro18.github.io/pagina-2/',
-          urlGithub:'https://github.com/MINOTAURO18/pagina-2',
+          url:'https://minotauro18.github.io/portafolio/',
+          urlGithub:'https://github.com/MINOTAURO18/portafolio',
         },
 
     ]

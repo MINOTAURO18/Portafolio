@@ -18,7 +18,7 @@ html {
 
 
 .contenedor {
-    padding: 6vh 0 ;
+    padding: 6vh 0 12vh 0 ;
 	width: 85%;
 	margin: 0 auto;
 	display: grid;
@@ -86,9 +86,7 @@ aside .lista li:hover::before {
 	border: 2px solid var(--temario-active-border);
 }
 
-main {
-	min-height: 2000px;
-}
+
 
 .card {
 	margin: 20px 0;
