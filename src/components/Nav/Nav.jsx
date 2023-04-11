@@ -10,7 +10,7 @@ const Nav = () => {
     return(
         <header className={Styles.header}> 
             
-            <span className={Styles.logo}>JAMY</span>
+            <span className={Styles.logo}>JAMY</span> 
 
           <nav className={Styles.nav}>
             <Link to='/portafolio/'><span>I</span>nicio</Link>
