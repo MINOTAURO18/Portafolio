@@ -7,12 +7,19 @@
   cursor: pointer;
 } 
 
-.Redes img:hover{
+.Redes a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.Redes a img:hover{
   transform: translateY(-12%);
 }
 
-.Redes .img{
+.Redes a img{
   transition: transform 0.2s ease-in-out;
-  width: 22px;
+  width: 21px;
   filter: invert(94%) sepia(8%) saturate(746%) hue-rotate(345deg) brightness(108%) contrast(92%);
 }

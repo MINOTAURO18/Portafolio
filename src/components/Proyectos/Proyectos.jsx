@@ -147,9 +147,9 @@ const Proyectos = () => {
 
               
                 <div>
-                  <img src={code} alt="" />
+                  <img src={code} alt="" /> 
                   <p>Desarrollo de plataformas y soluciones específicas para tus aplicaciones web modernas.</p>
-                </div>
+                </div> 
                 
                 <div>
                   <img src={web} alt="" />

@@ -92,8 +92,28 @@ main {
 
 .card {
 	margin: 20px 0;
-	padding: 40px;
 	background:rgb(1, 0, 8);
+}
+
+.nota{
+	color: rgb(211, 26, 26);
+}
+
+.div{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+
+
+.div .mobile img{
+	width: 30vw;
+}
+
+
+.div div img{
+	width: 35vw;
 }
 
 @media screen and (max-width: 700px){

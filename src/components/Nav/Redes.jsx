@@ -4,14 +4,19 @@ import github from '../../assets/github.svg'
 import styles from '../Nav/Redes.module.css'
 
 const Redes = () => {
-    const redes = [linkedin, instagram, github];
     return (
         <div className={styles.Redes}>
-          {
-            redes.map((re, index) => {
-                return <img className={styles.img} key={index} src={re}/>
-            })
-          }
+         <a Target="_blank" href="https://www.linkedin.com/in/alexander-mu%C3%B1oz-4959a0255/">
+          <img src={linkedin} alt="logo de linkedin" />
+         </a>
+
+         <a Target="_blank" href="https://github.com/MINOTAURO18 ">
+          <img src={github} alt="logo de github" />
+         </a>
+
+         <a Target="_blank" href="https://www.instagram.com/jamy_10011/">
+          <img src={instagram} alt="logo de instagram" />
+         </a>
         </div>
     )
 }
