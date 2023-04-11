@@ -73,8 +73,8 @@ span{
         transform: translateX(50%);
         width: 85%;
         border: 2px solid rgb(4, 197, 72);
-        border-radius: 5px;
-        margin-bottom:.5px ;
+        border-radius: 25px;
+        margin-bottom:5px ;
         height: 8vh;
         display: flex;
         align-items: center;
