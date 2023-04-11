@@ -71,9 +71,9 @@ span{
         bottom: 0;
         right: 50%;
         transform: translateX(50%);
-        width: 85%;
-        border: 2px solid rgb(4, 197, 72);
-        border-radius: 10px;
+        width: 100%;
+        border-bottom: 2px solid rgb(4, 197, 72);
+        border-top: 2px solid rgb(4, 197, 72);
         margin-bottom:.5px ;
         height: 8vh;
         display: flex;
