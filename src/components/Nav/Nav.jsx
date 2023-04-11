@@ -8,7 +8,7 @@ import mas from '../../assets/mas.svg'
 
 const Nav = () => {
     return(
-        <header className={Styles.header}>
+        <header className={Styles.header}> 
             
             <span className={Styles.logo}>JAMY</span>
 

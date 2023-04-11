@@ -25,6 +25,13 @@ a{
     
 }
 
+
+
+.nav a:hover {
+    color: rgb(4, 197, 72);
+    transition: all .2s ease-in-out;
+}
+
 .nav_mobile{
   display: none;
 }
