@@ -85,7 +85,7 @@ const Proyectos = () => {
     return (
       <section className={styles.Proyectos}>
           <div className={styles.servicios}>
-            <h2>Tecnologias y Proyectos</h2>
+            <h2>Tecnologías y Proyectos</h2>
             <div className={styles.habi}>
 
               <div>
