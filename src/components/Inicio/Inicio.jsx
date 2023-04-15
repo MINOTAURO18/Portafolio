@@ -2,11 +2,16 @@ import styles from '../Inicio/inicio.module.css'
 import Botones from './Botones/Botones';
 import Animacion from './animacion/Animacion';
 import FullStack from './FullStack/FullStack'
+import { motion } from 'framer-motion';
 const Inicio = () => {
     return(
-      <section className={styles.Home}>
+      <motion.section className={styles.Home}
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
         <div className={styles.full}>
-        <FullStack/>
+        <FullStack/> 
         </div> 
 
         <div className={styles.btnAndName}>
@@ -16,7 +21,7 @@ const Inicio = () => {
            
         
           <Animacion/> 
-      </section>
+      </motion.section>
     )
 }
 

@@ -5,12 +5,17 @@ import celu3 from '../../assets/celuSobre.webp'
 import pc1 from '../../assets/pcInicio.webp'
 import pc2 from '../../assets/pcProye.webp'
 import pc3 from '../../assets/pcSobre.webp'
+import { motion } from 'framer-motion';
 
 const Mas = () => {
 
     
     return (
-        <div className={styles.contenedor}>
+        <motion.div className={styles.contenedor}
+		intial={{opacity: 0}}
+		animate={{opacity: 1}}
+		exit={{opacity: 0}}
+		> 
                 
             
 		<aside>
@@ -66,7 +71,7 @@ const Mas = () => {
 			
 			
 		</main>
-	</div>
+	</motion.div>
 	   
 	
     )

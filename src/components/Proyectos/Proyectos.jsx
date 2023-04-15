@@ -21,6 +21,7 @@ import code from '../../assets/code.svg'
 import web from '../../assets/web.svg'
 import desing from '../../assets/desing.svg'
 import logo11 from '../../assets/tailwind.svg'
+import { motion } from 'framer-motion';
 
 
 const Proyectos = () => {
@@ -84,7 +85,11 @@ const Proyectos = () => {
 
 
     return (
-      <section className={styles.Proyectos}>
+      <motion.section className={styles.Proyectos}
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
           <div className={styles.servicios}>
             <h2>Tecnologías y Proyectos</h2>
             <div className={styles.habi}>
@@ -134,7 +139,7 @@ const Proyectos = () => {
               </div>
 
               <div>
-                <img src={logo8} alt="logo posgresql" />
+                <img src={logo8} alt="logo posgresql" /> 
                 <h5>PostgreSQL</h5>
               </div>
 
@@ -212,7 +217,7 @@ const Proyectos = () => {
               } )
             }
           </div>
-        </section>
+        </motion.section>
     )
 }
 
