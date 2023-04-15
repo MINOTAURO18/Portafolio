@@ -20,6 +20,7 @@ import page from '../../assets/url.svg'
 import code from '../../assets/code.svg'
 import web from '../../assets/web.svg'
 import desing from '../../assets/desing.svg'
+import logo11 from '../../assets/tailwind.svg'
 
 
 const Proyectos = () => {
@@ -101,6 +102,11 @@ const Proyectos = () => {
               <div>
                 <img src={logo3} alt="logo sass" />
                 <h5>SASS</h5>
+              </div>
+
+              <div>
+                <img src={logo11} alt="logo tailwind" />
+                <h5>TAILWIND</h5>
               </div>
 
               <div>
