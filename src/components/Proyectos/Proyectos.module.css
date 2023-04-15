@@ -56,7 +56,7 @@
 
 
 
-.btns{
+.btns{ 
     width: 100%;
     height: 50px;
     padding: 0 10px;
@@ -135,6 +135,14 @@ h3{
 
 .habi div img{
     width: 45px;
+}
+
+.habi div{
+    transition: all .3s ease-in-out;
+}
+
+.habi div:hover{
+    transform: translateY(-4%);
 }
 
 .metodo{
