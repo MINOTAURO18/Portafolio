@@ -86,12 +86,12 @@ const Proyectos = () => {
 
     return (
       <motion.section className={styles.Proyectos}
-      initial={{width: '85%'}}
-      animate={{ x: 100 }}
-      transition={{ type: "spring", stiffness: 100 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{opacity: 0}}
       >
           <div className={styles.servicios}>
-            <h2>Tecnologías y Proyectos</h2>
+            <h2>Tecnologías y Proyectos</h2> 
             <div className={styles.habi}>
 
               <div>

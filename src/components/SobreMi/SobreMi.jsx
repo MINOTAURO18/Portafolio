@@ -6,13 +6,13 @@ import { motion } from 'framer-motion'
 const SobreMi = () => {
     return (
         <motion.section className={styles.SobreMi}
-        initial={{width: '85%'}}
-        animate={{x: 100 }}
-        transition={{ type: "spring", stiffness: 100 }}
+        initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{opacity: 0}}
         >
             {/* <Animacion/> */}
             <Animaciones/>
-            <div className={styles.container}>
+            <div className={styles.container}> 
                 <span></span>
                 <span></span> 
                 <span></span>
