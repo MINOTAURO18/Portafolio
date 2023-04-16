@@ -1,4 +1,6 @@
 .Home{
+    position: absolute;
+    right: 15%;
     width: 85%;
     height: 90vh;
     margin: 0 auto;
@@ -40,6 +42,8 @@
 @media (max-width: 800px){
   
   .Home{
+    position: absolute;
+    left: -15%;
     max-width: 600px;
     width: 100%;
     height: auto;
@@ -51,6 +55,7 @@
   }
   
   .full{
+    
     padding:  0 0 0;
     width: 85%;
     height: 100%;

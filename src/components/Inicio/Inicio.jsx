@@ -6,9 +6,9 @@ import { motion } from 'framer-motion';
 const Inicio = () => {
     return(
       <motion.section className={styles.Home}
-      intial={{width: 0}}
-      animate={{width: '85%'}}
-      exit={{x: window.innerWidth}}
+      initial={{width: '85%'}}
+      animate={{ x: 100 }}
+      transition={{ type: "spring", stiffness: 100 }}
       >
         <div className={styles.full}>
         <FullStack/> 

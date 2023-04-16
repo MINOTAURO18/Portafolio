@@ -6,9 +6,9 @@ import { motion } from 'framer-motion'
 const SobreMi = () => {
     return (
         <motion.section className={styles.SobreMi}
-        intial={{width: 0}}
-      animate={{width: '85%'}}
-      exit={{x: window.innerWidth}}
+        initial={{width: '85%'}}
+        animate={{x: 100 }}
+        transition={{ type: "spring", stiffness: 100 }}
         >
             {/* <Animacion/> */}
             <Animaciones/>

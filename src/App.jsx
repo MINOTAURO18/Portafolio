@@ -13,8 +13,8 @@ function App() {
 
   return (
     <div className="App">
-      <Nav/>
       <AnimatePresence>
+      <Nav/>
 
         <Routes location={location} key={location.pathname}>  
         <Route path='/portafolio/' element={<Inicio/>}/>   

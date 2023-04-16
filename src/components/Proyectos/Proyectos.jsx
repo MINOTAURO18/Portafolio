@@ -86,9 +86,9 @@ const Proyectos = () => {
 
     return (
       <motion.section className={styles.Proyectos}
-      intial={{width: 0}}
-      animate={{width: '85%'}}
-      exit={{x: window.innerWidth}}
+      initial={{width: '85%'}}
+      animate={{ x: 100 }}
+      transition={{ type: "spring", stiffness: 100 }}
       >
           <div className={styles.servicios}>
             <h2>Tecnologías y Proyectos</h2>

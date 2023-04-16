@@ -1,4 +1,6 @@
 .Proyectos{
+  position: absolute;
+  right: 15%;
   width: 85%;
   height: auto;
   margin: auto;
