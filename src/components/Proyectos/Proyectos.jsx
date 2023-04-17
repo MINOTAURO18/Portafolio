@@ -5,6 +5,7 @@ import img3 from '../../assets/porta2.webp'
 import img4 from '../../assets/barberia.webp'
 import img5 from '../../assets/portafolio.webp'
 import img6 from '../../assets/kfc.webp'
+import img7 from '../../assets/img7.webp'
 import logo1 from '../../assets/react.svg'
 import logo2 from '../../assets/html.svg'
 import logo3 from '../../assets/sass.svg'
@@ -26,6 +27,15 @@ import { motion } from 'framer-motion';
 
 const Proyectos = () => {
     const tarjetas = [
+        {
+          image:[img7],
+          name:'TuDestino',
+          descrip:'TuDestino vive tus vacaciones soñadas al mejor de los precios.',
+          tecno:[logo2,logo5,logo3,logo4],
+          url:'https://minotauro18.github.io/TuDestino/',
+          urlGithub:'https://github.com/MINOTAURO18/TuDestino',
+        },
+
         {
           image:[img],
           name:'DominiosYa',
@@ -71,14 +81,6 @@ const Proyectos = () => {
           urlGithub:'https://github.com/MINOTAURO18/KFC',
         },
 
-        {
-          image:[img5],
-          name:'Portafolio',
-          descrip:'Portafolio de JAMY, donde conoceras un poco sobre quien es JAMY, sus proyectos y tecnologias que usa',
-          tecno:[logo2,logo3,logo1],
-          url:'https://minotauro18.github.io/portafolio/',
-          urlGithub:'https://github.com/MINOTAURO18/portafolio',
-        },
 
     ]
 
