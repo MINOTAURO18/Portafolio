@@ -29,7 +29,7 @@ const SobreMi = () => {
     </div>
    
    <div className={styles.body}>
-     <p className={styles.text}>Hola ¿Que tal?, Me llamo <span>J</span>ohn <span>A</span>lexander <span>M</span>uñoz <span>Y</span>epez de Medellin-Colombia. Soy una persona apasionada por la tecnología y los deportes, de este ultimo es de donde adquirí mi disciplina y constancia, ya que creo que los deportes son la manera mas eficaz de desarrollar estas cualidades.
+     <p className={styles.text}>Hola ¿Que tal?, Me llamo <span>J</span>ohn <span>A</span>lexander <span>M</span>uñoz <span>Y</span>epez de Medellin-Colombia. Amante de la tecnología y los deportes, de este ultimo es de donde adquirí mi disciplina y constancia, ya que creo, que los deportes son la manera mas eficaz de desarrollar estas cualidades.
 </p><span className={styles.username}>From:Jamy_10011</span>
       <div className={styles.footer}>
    <div>
