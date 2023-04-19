@@ -184,9 +184,9 @@ const Proyectos = () => {
 
            <div className={styles.cards}>
             {
-              tarjetas.map(card => {
+              tarjetas.map((card, index) => {
                 return (
-                    <div className={styles.card}>
+                    <div className={styles.card} key={index}>
                         <div className={styles.image}>  
                        <img src={card.image[0]} alt={`imagen de ${card.name}`} />
                        </div>

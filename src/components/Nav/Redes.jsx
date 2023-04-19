@@ -6,15 +6,15 @@ import styles from '../Nav/Redes.module.css'
 const Redes = () => {
     return (
         <div className={styles.Redes}>
-         <a Target="_blank" href="https://www.linkedin.com/in/alexander-mu%C3%B1oz-4959a0255/">
+         <a target="_blank" href="https://www.linkedin.com/in/alexander-mu%C3%B1oz-4959a0255/">
           <img src={linkedin} alt="logo de linkedin" />
          </a>
 
-         <a Target="_blank" href="https://github.com/MINOTAURO18 ">
+         <a target="_blank" href="https://github.com/MINOTAURO18 ">
           <img src={github} alt="logo de github" />
          </a>
 
-         <a Target="_blank" href="https://www.instagram.com/jamy_10011/">
+         <a target="_blank" href="https://www.instagram.com/jamy_10011/">
           <img src={instagram} alt="logo de instagram" />
          </a>
         </div>
