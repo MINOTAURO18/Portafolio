@@ -3,9 +3,9 @@ import img from '../../assets/Dominios.webp'
 import img2 from '../../assets/Jamy.webp'
 import img3 from '../../assets/porta2.webp'
 import img4 from '../../assets/barberia.webp'
-import img5 from '../../assets/portafolio.webp'
 import img6 from '../../assets/kfc.webp'
 import img7 from '../../assets/img7.webp'
+import img8 from '../../assets/mundodev.webp'
 import logo1 from '../../assets/react.svg'
 import logo2 from '../../assets/html.svg'
 import logo3 from '../../assets/sass.svg'
@@ -15,6 +15,7 @@ import logo6 from '../../assets/redux.svg'
 import logo7 from '../../assets/node.svg'
 import logo8 from '../../assets/psql.svg'
 import logo10 from '../../assets/figma.svg'
+import logo12 from '../../assets/python.svg'
 import github from '../../assets/github.svg';
 import page from '../../assets/url.svg'
 import code from '../../assets/code.svg'
@@ -26,6 +27,16 @@ import { motion } from 'framer-motion';
 
 const Proyectos = () => {
     const tarjetas = [
+
+       {
+        image:[img8],
+        name:'MundoDev',
+        descrip:'en MundoDev se pueden encontrar recursos y artículos sobre programación y tecnologías.',
+        tecno:[logo1,logo3,logo11],
+        url:'https://minotauro18.github.io/MundoDev/',
+        urlGithub:'https://github.com/MINOTAURO18/MundoDev',
+        },
+
         {
           image:[img7],
           name:'TuDestino',
@@ -87,9 +98,9 @@ const Proyectos = () => {
 
     return (
       <motion.section className={styles.Proyectos}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{opacity: 0}}
+      initial={{ width: 0 }}
+      animate={{ width: "85%" }}
+      exit={{x: window.innerWidth, transition: {duration: 0.3}}}
       >
           <div className={styles.servicios}>
             <h2>Tecnologías y Proyectos</h2> 
@@ -129,6 +140,12 @@ const Proyectos = () => {
                 <img src={logo6} alt="logo redux" />
                 <h5>REDUX</h5>
               </div>
+
+              <div>
+                <img src={logo12} alt="logo redux" />
+                <h5>PYTHON</h5>
+              </div>
+
               <div>
                 <img src={logo7} alt="logo node.js" />
                 <h5>NODE.JS</h5>
