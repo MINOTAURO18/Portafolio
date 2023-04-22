@@ -12,9 +12,9 @@ const Mas = () => {
     
     return (
         <motion.div className={styles.contenedor}
-		initial={{ width: 0 }}
-      animate={{ width: "85%" }}
-      exit={{x: window.innerWidth, transition: {duration: 0.3}}}
+		initial={{ opacity: 0 , transition: {duration: 0.2}}}
+        animate={{ opacity: 1 , transition: {duration: 0.2} }}
+        exit={{ opacity: 0 , transition: {duration: 0.2}}}
 		> 
                 
             
