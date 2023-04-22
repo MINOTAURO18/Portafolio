@@ -16,7 +16,6 @@ const Nav = () => {
             <Link to='/portafolio/'><span>I</span>nicio</Link>
             <Link to='/portafolio/proyectos'><span>P</span>royectos</Link>
             <Link to='/portafolio/sobremi'><span>S</span>obreMi</Link>
-            <Link to='/portafolio/mas'><span>M</span>as</Link>
             
           </nav>
 
@@ -29,9 +28,6 @@ const Nav = () => {
             </Link>
             <Link to='/portafolio/sobremi'>
             <img src={sobremi} alt="" />
-            </Link>
-            <Link to='/portafolio/mas'>
-            <img src={mas} alt="" />
             </Link>
           </nav>
 
