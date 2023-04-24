@@ -100,7 +100,7 @@ const Proyectos = () => {
       <motion.section className={styles.Proyectos}
       // initial={{ opacity: 0 , transition: {duration: 0.2}}}
       //   animate={{ opacity: 1 , transition: {duration: 0.2}}}
-      //   exit={{ opacity: 0 , transition: {duration: 0.2}}}
+      //   exit={{ opacity: 0 , transition: {duration: 0.2}}} 
       >
           <div className={styles.servicios}>
             <h2>Tecnologías y Proyectos</h2> 
@@ -166,7 +166,7 @@ const Proyectos = () => {
 
 
             <div>
-              <h2>Servicios</h2>
+              <h2 className={styles.h2S}>Servicios</h2>
               <div  className={styles.metodo}>
 
               
