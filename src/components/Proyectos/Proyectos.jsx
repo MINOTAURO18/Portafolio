@@ -12,6 +12,7 @@ import logo3 from '../../assets/sass.svg'
 import logo4 from '../../assets/js.svg'
 import logo5 from '../../assets/css.svg'
 import logo6 from '../../assets/redux.svg'
+import logo7 from '../../assets/node.svg'
 import logo8 from '../../assets/psql.svg'
 import logo10 from '../../assets/figma.svg'
 import logo12 from '../../assets/python.svg'
@@ -128,6 +129,11 @@ const Proyectos = () => {
               <div>
                 <img src={logo4} alt="logo js" />
                 <h5>JAVASCRIPT</h5>
+              </div>
+
+              <div>
+                <img src={logo7} alt="logo node" />
+                <h5>NODE</h5>
               </div>
 
               <div>
