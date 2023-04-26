@@ -1,8 +1,10 @@
 .planet {
+  z-index: -1;
   top: 12vh;
+  left: 22vh;
   display: block;
-  width: 125px;
-  height: 125px;
+  width: 120px;
+  height: 120px;
   position: absolute;
   transform-style: preserve-3d;
   border-radius: 50%;

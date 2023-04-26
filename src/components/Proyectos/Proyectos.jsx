@@ -23,6 +23,8 @@ import web from '../../assets/web.svg'
 import desing from '../../assets/desing.svg'
 import logo11 from '../../assets/tailwind.svg'
 import { motion } from 'framer-motion';
+import Animaciones from '../Animaciones/Animacion'
+
 
 
 const Proyectos = () => {
@@ -196,6 +198,7 @@ const Proyectos = () => {
 
 
            <div className={styles.cards}>
+            <Animaciones/>
             {
               tarjetas.map((card, index) => {
                 return (
