@@ -47,10 +47,11 @@ p{
 }
 
 .body .text {
-  margin: 0 10px 0 0; 
+  text-align: justify;
+  font-size: 1.2rem;
   white-space: pre-line;
-  color:  #f5f5dc;
-  font-weight: 400;
+  color:  #ffffff;
+  font-weight: 600;
   line-height: 1.5;
   margin-bottom: 4px;
 }
