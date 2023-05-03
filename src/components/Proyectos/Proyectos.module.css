@@ -100,6 +100,7 @@ h3{
 
 
 .card .descrip{
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +108,7 @@ h3{
     padding: 0 10px;
 
     height: 80px;
-    color: #f5f5dc;
+    color: #ffffff;
 }
 
 .servicios{
@@ -186,6 +187,8 @@ h3{
 }
 
 .metodo p{
+    font-weight: 600;
+    color: #ffffff;
     font-size: 15px;
     text-align: center;
 }

@@ -56,7 +56,7 @@ h1{
   
   .body .text {
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     white-space: pre-line;
     color:  #ffffff;
     font-weight: 600;
@@ -154,8 +154,8 @@ h1{
   }
 
   .cards .card span{
-    color: #f5f5dc;
-    font-weight: 500;
+    color: #ffffff;
+    font-weight: 600;
   }
 
   
