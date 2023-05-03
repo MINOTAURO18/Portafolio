@@ -247,6 +247,7 @@ h1{
 
     .img img{
       width: 200px;
+      height: 200px;
       z-index: 99;
     }
     .body .text{
