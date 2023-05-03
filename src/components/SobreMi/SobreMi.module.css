@@ -28,7 +28,8 @@ article{
 
 .img img{
   z-index: 99;
-  width: 250px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   border: 2px solid rgb(4, 197, 72);
 }
