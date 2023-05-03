@@ -24,6 +24,7 @@ import desing from '../../assets/desing.svg'
 import logo11 from '../../assets/tailwind.svg'
 import { motion } from 'framer-motion';
 import Animaciones from '../Animaciones/Animacion'
+import express from '../../assets/express.svg'
 
 
 
@@ -136,6 +137,11 @@ const Proyectos = () => {
               <div>
                 <img src={logo7} alt="logo node" />
                 <h5>NODE</h5>
+              </div>
+
+              <div>
+                <img src={express} alt="logo express" />
+                <h5>EXPRESS</h5>
               </div>
 
               <div>

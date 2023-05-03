@@ -6,7 +6,7 @@
     height: 10vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 10% 78% 12% ;
+    grid-template-columns: 10% 75% 15% ;
     align-items: center;
     z-index: 9;
 }
@@ -92,7 +92,7 @@ span{
 
 }
 
-@media (max-width: 950px){
+@media (max-width: 1150px){
     .nav{
         border-right: none;
     }

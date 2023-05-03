@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 15px;
+  gap: 20px;
   /* border-left: 2px solid #f5f5dc; */
   cursor: pointer;
 } 

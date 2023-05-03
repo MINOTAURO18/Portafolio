@@ -4,9 +4,14 @@ import Styles from '../Nav/Nav.module.css';
 import inicio from '../../assets/Inicio.svg'
 import proyectos from '../../assets/proyectos.svg'
 import sobremi from '../../assets/sobremi.svg'
-import mas from '../../assets/mas.svg'
+
+import luna from '../../assets/luna.svg'
+import sol from '../../assets/sol.svg'
 
 const Nav = () => {
+
+
+  
     return(
         <header className={Styles.header}> 
             
@@ -16,7 +21,6 @@ const Nav = () => {
             <Link to='/portafolio/'><span>I</span>nicio</Link>
             <Link to='/portafolio/proyectos'><span>P</span>royectos</Link>
             <Link to='/portafolio/sobremi'><span>S</span>obreMi</Link>
-            
           </nav>
 
           <nav className={Styles.nav_mobile}>
