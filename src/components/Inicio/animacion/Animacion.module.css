@@ -36,7 +36,7 @@
   
   .loader:before {
     border-radius: 30%;
-    background: rgb(4, 197, 72);
+    background: rgb(4, 168, 61);
     animation: wave 5s linear infinite;
   }
   

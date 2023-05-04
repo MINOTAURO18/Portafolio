@@ -12,12 +12,12 @@ const SobreMi = () => {
         >
             {/* <Animacion/> */}
             <Animaciones/>
-            <div className={styles.container}> 
+            {/* <div className={styles.container}> 
                 <span></span>
                 <span></span> 
                 <span></span>
                 <span></span>
-            </div>
+            </div> */}
             
    <article>
 
