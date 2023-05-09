@@ -6,7 +6,7 @@
     height: 10vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 10% 71% 19% ;
+    grid-template-columns: 10% 74.5% 15.5% ;
     align-items: center;
     z-index: 9;
 }

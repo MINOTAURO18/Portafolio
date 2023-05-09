@@ -5,8 +5,7 @@ import inicio from '../../assets/Inicio.svg'
 import proyectos from '../../assets/proyectos.svg'
 import sobremi from '../../assets/sobremi.svg'
 
-import luna from '../../assets/luna.svg'
-import sol from '../../assets/sol.svg'
+
 
 const Nav = () => {
 
