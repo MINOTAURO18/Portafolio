@@ -187,18 +187,18 @@ const Proyectos = () => {
 
               
                 <div>
-                  <img src={code} alt="" /> 
+                  <img src={code} alt="imagen code" /> 
                   <p>Desarrollo de soluciones específicas para tus aplicaciones web modernas.
 </p>
                 </div> 
                 
                 <div>
-                  <img src={web} alt="" />
+                  <img src={web} alt="imagen web" />
                   <p>proyectos tecnológicos y adaptados a tus necesidades.</p>
                 </div>
 
                 <div>
-                  <img src={desing} alt="" />
+                  <img src={desing} alt="imagen desing" />
                   <p>Diseño adaptivo para todos los dispositivos</p>
                 </div>
 
