@@ -11,7 +11,6 @@ import logo2 from '../../assets/html.svg'
 import logo3 from '../../assets/sass.svg'
 import logo4 from '../../assets/js.svg'
 import logo5 from '../../assets/css.svg'
-import logo6 from '../../assets/redux.svg'
 import logo7 from '../../assets/node.svg'
 import logo8 from '../../assets/psql.svg'
 import logo10 from '../../assets/figma.svg'
@@ -23,7 +22,6 @@ import web from '../../assets/web.svg'
 import desing from '../../assets/desing.svg'
 import logo11 from '../../assets/tailwind.svg'
 import { motion } from 'framer-motion';
-import Animaciones from '../Animaciones/Animacion'
 import express from '../../assets/express.svg'
 import portafolio_da from '../../assets/portafolio_da.webp'
 
@@ -109,11 +107,7 @@ const Proyectos = () => {
 
 
     return (
-      <motion.section className={styles.Proyectos}
-      // initial={{ opacity: 0 , transition: {duration: 0.2}}}
-      //   animate={{ opacity: 1 , transition: {duration: 0.2}}}
-      //   exit={{ opacity: 0 , transition: {duration: 0.2}}} 
-      >
+      <section className={styles.Proyectos}>
 
           <div className={styles.servicios}>
             <h2>Tecnologías</h2> 
@@ -246,7 +240,7 @@ const Proyectos = () => {
               } )
             }
           </div>
-        </motion.section>
+        </section>
     )
 }
 
