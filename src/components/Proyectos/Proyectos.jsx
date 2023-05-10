@@ -168,7 +168,7 @@ const Proyectos = () => {
               
 
               <div>
-                <img src={logo8} alt="logo posgresql" /> 
+                <img src={logo8} alt="logo" /> 
                 <h5>PostgreSQL</h5>
               </div>
 
