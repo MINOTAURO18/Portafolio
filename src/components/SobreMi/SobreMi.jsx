@@ -25,7 +25,7 @@ const SobreMi = () => {
 <div class="card"> 
 
     <div className={styles.img}>
-        <img src={img} alt="" />
+        <img src={img} alt="foto de JAMY" />
     </div>
    
    <div className={styles.body}>
