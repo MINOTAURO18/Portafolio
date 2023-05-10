@@ -32,7 +32,7 @@
     align-items: center;
     width: 300px;
     height: 380px;
-    border: 1px solid rgb(1, 52, 18);
+    border: 2px solid rgb(1, 52, 18);
     border-radius:10px ;
     transition: transform 0.3s ease-in-out;
    
@@ -175,7 +175,7 @@ h3{
 .metodo div{
   width: 170px;
   height: 200px;
-  border: 1px solid  rgb(3, 79, 41);
+  border: 2px solid  rgb(3, 79, 41);
   border-radius: 10px;
   padding: 10px 0;
   display: flex;
