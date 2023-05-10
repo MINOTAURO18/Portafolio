@@ -114,8 +114,9 @@ const Proyectos = () => {
       //   animate={{ opacity: 1 , transition: {duration: 0.2}}}
       //   exit={{ opacity: 0 , transition: {duration: 0.2}}} 
       >
+
           <div className={styles.servicios}>
-            <h2>Tecnologías y Proyectos</h2> 
+            <h2>Tecnologías</h2> 
             <div className={styles.habi}>
 
               <div>
@@ -209,7 +210,6 @@ const Proyectos = () => {
 
 
            <div className={styles.cards}>
-            <Animaciones/>
             {
               tarjetas.map((card, index) => {
                 return (
