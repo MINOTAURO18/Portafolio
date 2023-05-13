@@ -30,7 +30,7 @@
 
 .full{
   z-index: 9;
-  min-width: 415px;
+  min-width: 425px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
