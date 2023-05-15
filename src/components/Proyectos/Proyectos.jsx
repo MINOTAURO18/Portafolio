@@ -24,6 +24,7 @@ import logo11 from '../../assets/tailwind.svg'
 import { motion } from 'framer-motion';
 import express from '../../assets/express.svg'
 import portafolio_da from '../../assets/portafolio_da.webp'
+import portafolio_react from '../../assets/portafolio-react.webp'
 
 
 const Proyectos = () => {
@@ -54,6 +55,15 @@ const Proyectos = () => {
           tecno:[logo2,logo5,logo4],
           url:'https://minotauro18.github.io/Portafolio_Plantilla/',
           urlGithub:'https://github.com/MINOTAURO18/Portafolio_Plantilla',
+        },
+
+        {
+          image:[portafolio_react],
+          name:'Template-Portafolio',
+          descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+          tecno:[logo2,logo5,logo4],
+          url:'https://minotauro18.github.io/Portafolio-Plantilla-React/',
+          urlGithub:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
         },
 
         {
