@@ -61,7 +61,7 @@ const Proyectos = () => {
           image:[portafolio_react],
           name:'Template-Portafolio',
           descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
-          tecno:[logo2,logo5,logo4],
+          tecno:[logo1,logo3,logo5],
           url:'https://minotauro18.github.io/Portafolio-Plantilla-React/',
           urlGithub:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
         },
