@@ -25,6 +25,7 @@ import { motion } from 'framer-motion';
 import express from '../../assets/express.svg'
 import portafolio_da from '../../assets/portafolio_da.webp'
 import portafolio_react from '../../assets/portafolio-react.webp'
+import mui from '../../assets/mui.png'
 
 
 const Proyectos = () => {
@@ -47,7 +48,14 @@ const Proyectos = () => {
           url:'https://minotauro18.github.io/TuDestino/',
           urlGithub:'https://github.com/MINOTAURO18/TuDestino',
         },
-
+        {
+          image:[mui],
+          name:'Copia_MUI',
+          descrip:'copia de la pagina principal de MUI',
+          tecno:[logo2,logo5,logo3],
+          url:'https://minotauro18.github.io/Copia-MUI/',
+          urlGithub:'https://github.com/MINOTAURO18/Copia-MUI',
+        },
         {
           image:[portafolio_da],
           name:'Template-Portafolio',
@@ -58,15 +66,6 @@ const Proyectos = () => {
         },
 
         {
-          image:[portafolio_react],
-          name:'Template-Portafolio',
-          descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
-          tecno:[logo1,logo3,logo5],
-          url:'https://minotauro18.github.io/Portafolio-Plantilla-React/',
-          urlGithub:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
-        },
-
-        {
           image:[img],
           name:'DominiosYa',
           descrip:'DominiosYa donde puedes encontrar tu dominio al mejor de los precios.',
@@ -74,7 +73,7 @@ const Proyectos = () => {
           url:'https://minotauro18.github.io/DominiosYa/',
           urlGithub:'https://github.com/MINOTAURO18/DominiosYa',
         },
-
+        
         {
           image:[img4],
           name:'BarberShop',
@@ -83,7 +82,15 @@ const Proyectos = () => {
           url:'https://minotauro18.github.io/Barberia/',
           urlGithub:'https://github.com/MINOTAURO18/Barberia',
         },
-
+        
+        {
+          image:[portafolio_react],
+          name:'Template-Portafolio',
+          descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+          tecno:[logo1,logo3,logo5],
+          url:'https://minotauro18.github.io/Portafolio-Plantilla-React/',
+          urlGithub:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+        },
         {
             image:[img2],
             name:'JAMY',
