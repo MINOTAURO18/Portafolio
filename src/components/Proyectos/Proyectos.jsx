@@ -34,7 +34,7 @@ const Proyectos = () => {
        {
         image:[img8],
         name:'MundoDev',
-        descrip:'en MundoDev se pueden encontrar recursos y artículos sobre programación y tecnologías.',
+        descrip:'in MundoDev you can find resources and articles about programming and technologies.',
         tecno:[logo1,logo3,logo11],
         url:'https://minotauro18.github.io/MundoDev/',
         urlGithub:'https://github.com/MINOTAURO18/MundoDev',
@@ -43,7 +43,7 @@ const Proyectos = () => {
         {
           image:[img7],
           name:'TuDestino',
-          descrip:'TuDestino vive tus vacaciones soñadas al mejor de los precios.',
+          descrip:'TuDestino lives your dream vacations at the best prices.',
           tecno:[logo2,logo5,logo3,logo4],
           url:'https://minotauro18.github.io/TuDestino/',
           urlGithub:'https://github.com/MINOTAURO18/TuDestino',
@@ -51,7 +51,7 @@ const Proyectos = () => {
         {
           image:[mui],
           name:'Copia_MUI',
-          descrip:'copia de la pagina principal de MUI',
+          descrip:'copy of the MUI home page',
           tecno:[logo2,logo5,logo3],
           url:'https://minotauro18.github.io/Copia-MUI/',
           urlGithub:'https://github.com/MINOTAURO18/Copia-MUI',
@@ -59,7 +59,7 @@ const Proyectos = () => {
         {
           image:[portafolio_da],
           name:'Template-Portafolio',
-          descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+          descrip:'Portfolio created by JAMY, so you have a place to show your projects to the world.',
           tecno:[logo2,logo5,logo4],
           url:'https://minotauro18.github.io/Portafolio_Plantilla/',
           urlGithub:'https://github.com/MINOTAURO18/Portafolio_Plantilla',
@@ -68,7 +68,7 @@ const Proyectos = () => {
         {
           image:[img],
           name:'DominiosYa',
-          descrip:'DominiosYa donde puedes encontrar tu dominio al mejor de los precios.',
+          descrip:'DominiosYa where you can find your domain at the best.',
           tecno:[logo2,logo5,logo3,logo4],
           url:'https://minotauro18.github.io/DominiosYa/',
           urlGithub:'https://github.com/MINOTAURO18/DominiosYa',
@@ -77,7 +77,7 @@ const Proyectos = () => {
         {
           image:[img4],
           name:'BarberShop',
-          descrip:'BarberShop tu estilo es nuestra prioridad.',
+          descrip:'BarberShop your style is our priority.',
           tecno:[logo2,logo3,logo4],
           url:'https://minotauro18.github.io/Barberia/',
           urlGithub:'https://github.com/MINOTAURO18/Barberia',
@@ -86,7 +86,7 @@ const Proyectos = () => {
         {
           image:[portafolio_react],
           name:'Template-Portafolio',
-          descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+          descrip:'Portfolio created by JAMY, so you have a place to show your projects to the world.',
           tecno:[logo1,logo3,logo5],
           url:'https://minotauro18.github.io/Portafolio-Plantilla-React/',
           urlGithub:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
@@ -94,7 +94,7 @@ const Proyectos = () => {
         {
             image:[img2],
             name:'JAMY',
-            descrip:'JAMY es un sitio donde puedes encontrar servicios de desarrollo web.',
+            descrip:'JAMY is a site where you can find web development services.',
             tecno:[logo2,logo3,logo4],
             url:'https://minotauro18.github.io/marca/',
             urlGithub:'https://github.com/MINOTAURO18/marca',
@@ -103,7 +103,7 @@ const Proyectos = () => {
         {
             image:[img3],
             name:'Template-Portafolio',
-            descrip:'template creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
+            descrip:'Portfolio created by JAMY, so you have a place to show your projects to the world.',
             tecno:[logo2,logo5,logo4],
             url:'https://minotauro18.github.io/pagina-2/',
             urlGithub:'https://github.com/MINOTAURO18/pagina-2',
@@ -112,7 +112,7 @@ const Proyectos = () => {
         {
           image:[img6],
           name:'Template-KFC',
-          descrip:'template creado por JAMY, practica de responsive y diseño.',
+          descrip:'template created by JAMY, responsive and design practice.',
           tecno:[logo2,logo5],
           url:'https://minotauro18.github.io/KFC/',
           urlGithub:'https://github.com/MINOTAURO18/KFC',
@@ -127,7 +127,7 @@ const Proyectos = () => {
       <section className={styles.Proyectos}>
 
           <div className={styles.servicios}>
-            <h2>Tecnologías</h2> 
+            <h2>Technologies</h2> 
             <div className={styles.habi}>
 
               <div>
@@ -193,24 +193,24 @@ const Proyectos = () => {
 
 
             <div>
-              <h2 className={styles.h2S}>Servicios</h2>
+              <h2 className={styles.h2S}>Services</h2>
               <div  className={styles.metodo}>
 
               
                 <div>
                   <img src={code} alt="imagen code" /> 
-                  <p>Desarrollo de soluciones específicas para tus aplicaciones web modernas.
+                  <p>Development of specific solutions for your modern web applications.
 </p>
                 </div> 
                 
                 <div>
                   <img src={web} alt="imagen web" />
-                  <p>proyectos tecnológicos y adaptados a tus necesidades.</p>
+                  <p>technological projects adapted to your needs.</p>
                 </div>
 
                 <div>
                   <img src={desing} alt="imagen desing" />
-                  <p>Diseño adaptivo para todos los dispositivos</p>
+                  <p>Responsive design for all devices</p>
                 </div>
 
 

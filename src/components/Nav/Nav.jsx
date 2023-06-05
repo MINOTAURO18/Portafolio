@@ -17,9 +17,9 @@ const Nav = () => {
             <span className={Styles.logo}>JAMY</span> 
 
           <nav className={Styles.nav}>
-            <Link to='/portafolio/'><span>I</span>nicio</Link>
-            <Link to='/portafolio/proyectos'><span>P</span>royectos</Link>
-            <Link to='/portafolio/sobremi'><span>S</span>obreMi</Link>
+            <Link to='/portafolio/'><span>H</span>ome</Link>
+            <Link to='/portafolio/proyectos'><span>P</span>rojects</Link>
+            <Link to='/portafolio/sobremi'><span>A</span>bout<span>-</span>Me</Link>
           </nav>
 
           <nav className={Styles.nav_mobile}>

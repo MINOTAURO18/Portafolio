@@ -19,7 +19,7 @@ const SobreMi = () => {
     </div>
    
    <div className={styles.body}>
-     <p className={styles.text}>Hola ¿Que tal?, Me llamo <span>J</span>ohn <span>A</span>lexander <span>M</span>uñoz <span>Y</span>epez de Medellin-Colombia. Amante de la tecnología y los deportes, de este ultimo es de donde adquirí mi disciplina y constancia, ya que creo, que los deportes son la manera mas eficaz de desarrollar estas cualidades.
+     <p className={styles.text}>Hello, My name is <span>J</span>ohn <span>A</span>lexander <span>M</span>uñoz <span>Y</span>epez. I love technology and sports, the latter is where I acquired my discipline and perseverance, as I believe that sports are the most effective way to develop these qualities.
 </p><span className={styles.username}>From:Jamy_10011</span>
       <div className={styles.footer}>
    <div>
@@ -40,7 +40,7 @@ const SobreMi = () => {
             <div className={styles.academico}>
                 
                 <div className={styles.cards}>
-                <h1>Educación</h1>
+                <h1>Education</h1>
 
                     <div  className={styles.card}>
                         <h2>Udemy</h2>
@@ -56,8 +56,8 @@ const SobreMi = () => {
                     </div>
 
                     <div  className={styles.card}>
-                        <h2>Universidad De Antioquia</h2>
-                        <span>En Curso</span>
+                        <h2>Universidad Of Antioquia</h2>
+                        <span>in progress</span>
                     </div>
 
 
