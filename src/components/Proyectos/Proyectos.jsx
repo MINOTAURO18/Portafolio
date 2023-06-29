@@ -26,6 +26,7 @@ import express from '../../assets/express.svg'
 import portafolio_da from '../../assets/portafolio_da.webp'
 import portafolio_react from '../../assets/portafolio-react.webp'
 import mui from '../../assets/mui.png'
+import youtube from '../../assets/youtube.svg'
 
 
 const Proyectos = () => {
@@ -55,6 +56,8 @@ const Proyectos = () => {
           tecno:[logo2,logo5,logo3],
           url:'https://minotauro18.github.io/Copia-MUI/',
           urlGithub:'https://github.com/MINOTAURO18/Copia-MUI',
+          youtube: true,
+          youtubeUrl: 'https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s',
         },
         {
           image:[portafolio_da],
@@ -63,6 +66,8 @@ const Proyectos = () => {
           tecno:[logo2,logo5,logo4],
           url:'https://minotauro18.github.io/Portafolio_Plantilla/',
           urlGithub:'https://github.com/MINOTAURO18/Portafolio_Plantilla',
+          youtube: true,
+          youtubeUrl: 'https://www.youtube.com/watch?v=rA6wBu1rEHM&t=8016s',
         },
 
         {
@@ -90,6 +95,8 @@ const Proyectos = () => {
           tecno:[logo1,logo3,logo5],
           url:'https://minotauro18.github.io/Portafolio-Plantilla-React/',
           urlGithub:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+          youtube: true,
+          youtubeUrl: 'https://www.youtube.com/watch?v=dJVrR4dPVoY',
         },
         {
             image:[img2],
@@ -251,6 +258,14 @@ const Proyectos = () => {
                           <img src={page} alt="" />
                         </a>
                          </div>
+                        
+                         {
+                         
+                          card.youtube == true ? <div><a target='_black' href={card.youtubeUrl}>
+                          <img src={youtube} alt="" />
+                        </a></div> : ''
+                            
+                         }
                        </div>
                     </div>
                 )
