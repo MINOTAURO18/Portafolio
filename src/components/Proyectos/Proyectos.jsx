@@ -263,7 +263,7 @@ const Proyectos = () => {
                          
                           card.youtube == true ? <div><a target='_black' href={card.youtubeUrl}>
                           <img src={youtube} alt="" />
-                        </a></div> : ''
+                        </a></div> : null
                             
                          }
                        </div>
