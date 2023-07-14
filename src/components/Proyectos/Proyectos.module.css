@@ -173,11 +173,11 @@ h3{
 }
 
 .metodo div{
-  width: 170px;
+  width: 200px;
   height: 200px;
   border: 2px solid  rgb(3, 79, 41);
   border-radius: 10px;
-  padding: 10px 0;
+  padding: 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
