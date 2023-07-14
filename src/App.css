@@ -27,133 +27,23 @@ h1, h2 ,h3,h5, p, span {
 cursor: default;
 }
 
-/* .switchdark{
-  width: 60px;
-  height: 30px;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+
+.fade-enter {
+  opacity: 0;
 }
 
-.switchdark span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  display: inline-block;
-  color: var(--color-title);
-  background: none;
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
 }
 
-.switchdark::after{
-  content: "";
-  display: inline-block;
-  background-color: rgb(255, 255, 255);
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: unset;
-  border-radius:50% ;
-  -webkit-border-radius:50% ;
-  -moz-border-radius:50% ;
-  -ms-border-radius:50% ;
-  -o-border-radius:50% ;
-  transition:  all .5s ease;
-  -webkit-transition:  all .5s ease;
-  -moz-transition:  all .5s ease;
-  -ms-transition:  all .5s ease;
-  -o-transition:  all .5s ease;
-  box-shadow:  0 0 1.5px 1.5px rgba(0, 0, 0, .5) ;
+.fade-exit {
+  opacity: 1;
 }
 
-.switchdark.active{
-  background-color:black;
-
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
 }
-
-.switchdark.active::after{
-  left: unset;
-  right: 0;
-}
-
-body{
-  background-color: white;
-  color: black;
-}
-
-body.dark{
-  background-color:rgb(30, 26, 26) ;
-}
-
-body.dark .nav-menu{
-  background-color: rgb(19, 18, 18);
-  color:#fff;
-}
-
-body.dark .section-one{
-  background-color: rgb(28, 26, 26);
-}
-
-body.dark .section-two{
-  background-color: rgb(19, 18, 18);
-  color: #fff;
-}
-
-body.dark .section-three{
-  background-color: rgb(28, 26, 26);
-  color: #fff;
-}
-
-body.dark .section-four{
-  background-color: rgb(19, 18, 18);
-  color: #fff;
-}
-
-body.dark .section-five{
-  background-color: rgb(28, 26, 26);
-  color: #fff;
-}
-
-body.dark .footer{
-  background-color: rgb(19, 18, 18);
-  color: #fff;
-
-}
-
-body.dark .container-contacto{
-  background-color:rgb(28, 26, 26) ;
-  color: #fff;
-  box-shadow: 1px 3px 10px 1px rgb(28, 26, 26);
-}
-
-
-
-body.dark hr{
-  display: none;
-}
-
-body.dark .redes-footer{
-  background-color:  rgb(19, 18, 18);
-}
-
-body.dark .maquina{
-  background-color:  rgb(28, 26, 26);
-}
-
-body.dark .maquina::after{
-  background-color:  rgb(28, 26, 26);
-
-} */
 
 
