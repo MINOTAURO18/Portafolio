@@ -21,13 +21,14 @@ import code from "../../assets/code.svg";
 import web from "../../assets/web.svg";
 import desing from "../../assets/desing.svg";
 import logo11 from "../../assets/tailwind.svg";
-import { motion } from "framer-motion";
 import express from "../../assets/express.svg";
 import portafolio_da from "../../assets/portafolio_da.webp";
 import portafolio_react from "../../assets/portafolio-react.webp";
 import mui from "../../assets/mui.png";
 import youtube from "../../assets/youtube.svg";
 import tailwind from "../../assets/tailwind.webp";
+import redux from "../../assets/redux.svg";
+
 
 const Proyectos = () => {
   const tarjetas = [
@@ -194,8 +195,8 @@ const Proyectos = () => {
           </div>
 
           <div>
-            <img src={logo10} alt="logo figma" />
-            <h5>FIGMA</h5>
+            <img src={redux} alt="logo Redux" />
+            <h5>REDUX</h5>
           </div>
         </div>
 

@@ -25,3 +25,7 @@
   width: 21px;
   filter: invert(94%) sepia(8%) saturate(746%) hue-rotate(345deg) brightness(108%) contrast(92%);
 }
+
+.dark{
+  background-color: antiquewhite;
+}
