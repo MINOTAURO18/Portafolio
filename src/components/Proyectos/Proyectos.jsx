@@ -184,10 +184,7 @@ const Proyectos = () => {
             <h5>REACT</h5>
           </div>
 
-          <div>
-            <img src={logo12} alt="logo redux" />
-            <h5>PYTHON</h5>
-          </div>
+        
 
           <div>
             <img src={logo8} alt="logo" />
