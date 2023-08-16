@@ -28,6 +28,8 @@ import mui from "../../assets/mui.png";
 import youtube from "../../assets/youtube.svg";
 import tailwind from "../../assets/tailwind.webp";
 import redux from "../../assets/redux.svg";
+import books from "../../assets/books.webp";
+
 
 
 const Proyectos = () => {
@@ -72,6 +74,7 @@ const Proyectos = () => {
       youtubeUrl: "https://www.youtube.com/watch?v=rA6wBu1rEHM&t=8016s",
     },
 
+    
     {
       image: [img],
       name: "DominiosYa",
@@ -80,7 +83,7 @@ const Proyectos = () => {
       url: "https://minotauro18.github.io/DominiosYa/",
       urlGithub: "https://github.com/MINOTAURO18/DominiosYa",
     },
-
+    
     {
       image: [tailwind],
       name: "Template-Portafolio",
@@ -89,7 +92,15 @@ const Proyectos = () => {
       url: "#",
       urlGithub: "https://github.com/MINOTAURO18/porta-tailwind",
     },
-
+    
+    {
+      image: [books],
+      name: "Books",
+      descrip: "practica con React, Manejo del estado, filtros y Modo oscuro",
+      tecno: [logo1, logo3, logo5],
+      url: "https://books-eight-phi.vercel.app/",
+      urlGithub: "https://github.com/MINOTAURO18/Books",
+    },
     {
       image: [img4],
       name: "BarberShop",
